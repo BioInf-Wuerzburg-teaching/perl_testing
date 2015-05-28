@@ -38,6 +38,7 @@ Expectes two parameters and return the sum of both
 
 sub add
 {
+    return 2;
 }
 
 1;
