@@ -42,7 +42,7 @@ sub add
 {
     my ($sum1, $sum2) = @_;
 
-    if ($sum1 eq "bla")
+    if ($sum1 !~ /^\d+$/)
     {
 	warn "Use only numbers for first parameter!";
 	return undef;

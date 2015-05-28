@@ -8,7 +8,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 6;
+use Test::More tests => 7;
 BEGIN { use_ok('calc') };
 
 can_ok('calc', ('add'));
@@ -18,6 +18,8 @@ is(calc::add(1,5), 6, 'Is 1+5=6?');
 
 is(calc::add("bla", 5), undef, 'Does "bla", 5 returns undef');
 is(calc::add("blub", 5), undef, 'Does "blub", 5 returns undef');
+
+is(calc::add(5, "bla"), undef, 'Does 5, "bla" returns undef');
 
 #########################
 
