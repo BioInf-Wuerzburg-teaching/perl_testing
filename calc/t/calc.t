@@ -8,10 +8,12 @@
 use strict;
 use warnings;
 
-use Test::More tests => 2;
+use Test::More tests => 3;
 BEGIN { use_ok('calc') };
 
 can_ok('calc', ('add'));
+
+is(calc::add(1,1), 2, 'Is 1+1=2?');
 
 #########################
 
