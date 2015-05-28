@@ -36,6 +36,10 @@ Expectes two parameters and return the sum of both
 
 =cut
 
+sub add
+{
+}
+
 1;
 __END__
 # Below is stub documentation for your module. You'd better edit it!
