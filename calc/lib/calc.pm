@@ -38,7 +38,8 @@ Expectes two parameters and return the sum of both
 
 sub add
 {
-    return 2;
+    my ($sum1, $sum2) = @_;
+    return $sum1+$sum2;
 }
 
 1;
