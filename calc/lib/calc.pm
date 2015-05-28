@@ -41,6 +41,13 @@ sub routine checks if the first parameter is a number, in case it is no number, 
 sub add
 {
     my ($sum1, $sum2) = @_;
+
+    if ($sum1 eq "bla")
+    {
+	warn "Use only numbers for first parameter!";
+	return undef;
+    }
+
     return $sum1+$sum2;
 }
 
