@@ -28,7 +28,13 @@ our @EXPORT = qw(
 our $VERSION = '0.01';
 
 
-# Preloaded methods go here.
+=pod
+
+=head2 sub add
+
+Expectes two parameters and return the sum of both
+
+=cut
 
 1;
 __END__
