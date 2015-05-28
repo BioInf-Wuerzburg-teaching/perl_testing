@@ -34,6 +34,8 @@ our $VERSION = '0.01';
 
 Expectes two parameters and return the sum of both
 
+sub routine checks if the first parameter is a number, in case it is no number, the sub returns undef and prints a warning
+
 =cut
 
 sub add
